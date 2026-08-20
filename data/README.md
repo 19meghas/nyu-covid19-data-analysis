@@ -51,3 +51,47 @@ documented.
 The source-only historical notebook therefore preserves the original code and
 filenames, while the restored notebook uses the curated project data structure
 documented here.
+
+
+
+
+## Johns Hopkins COVID-19 historical snapshot
+
+The restored notebook uses locally preserved historical snapshots from the
+Johns Hopkins University CSSE COVID-19 Data Repository rather than the
+repository's current files.
+
+This avoids silently incorporating revisions or observations added after the
+original Spring 2020 project period.
+
+### Time-series datasets
+
+The following five files were recovered from the JHU `master` branch:
+
+- `time_series_covid19_confirmed_global.csv`
+- `time_series_covid19_deaths_global.csv`
+- `time_series_covid19_recovered_global.csv`
+- `time_series_covid19_confirmed_US.csv`
+- `time_series_covid19_deaths_US.csv`
+
+Git commit:
+
+`c02666a966cfe00eca2cb5b39ad520f34c6dd07e`
+
+At this repository state, all five time-series datasets end on May 13, 2020,
+matching the historical analysis window of the original project.
+
+### Country-level snapshot
+
+`cases_country.csv` was recovered separately from the JHU `web-data` branch.
+
+Git commit:
+
+`690d118a3b4f301f0ed7803fcc7a80bea529cfb8`
+
+The first country record reports:
+
+`Last_Update = 2020-05-13 23:32:26`
+
+which matches the country-level data timestamp preserved in the original
+Spring 2020 notebook output.
