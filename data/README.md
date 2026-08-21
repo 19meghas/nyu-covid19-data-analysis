@@ -95,3 +95,35 @@ The first country record reports:
 
 which matches the country-level data timestamp preserved in the original
 Spring 2020 notebook output.
+
+
+
+
+## New York City COVID-19 historical snapshot
+
+The restored notebook uses locally preserved historical data from the New York
+City Department of Health and Mental Hygiene COVID-19 repository rather than
+the repository's current files.
+
+The original project referenced these files directly from the live NYC Health
+GitHub repository:
+
+- `case-hosp-death.csv`
+- `by-age.csv`
+- `by-sex.csv`
+
+For reproducibility, the restored project pins all three files to the same
+historical repository state:
+
+`6b501e5e4fbe09d49d454e00e18205dd6fec9bff`
+
+At this commit, `case-hosp-death.csv` ends with:
+
+`5/11/20,26,0,3`
+
+which matches the final daily record preserved in the original Spring 2020
+notebook.
+
+These files are retained as historical snapshots because the NYC Health
+COVID-19 repository was subsequently reorganized and its datasets changed over
+time.
