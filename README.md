@@ -4,11 +4,19 @@ A historical data science project exploring the early spread of COVID-19 across 
 
 This project was originally completed as a three-person final project for the **NYU Stern Data Bootcamp in Spring 2020**, during the opening months of the COVID-19 pandemic in New York City.
 
-> **Restoration status:** This repository is currently being reconstructed and polished from the original 2020 project files. The goal is to improve reproducibility, organization, documentation, and analytical presentation while preserving the historical scope and collaborative nature of the original work.
+> **Restoration status:** This repository contains a restored and polished version of the original Spring 2020 project. The restoration improves reproducibility, organization, documentation, code clarity, and analytical presentation while preserving the historical scope and collaborative nature of the original work.
 
 ## Project background
 
 The project was developed while COVID-19 was still rapidly unfolding and while public datasets, reporting practices, and understanding of the pandemic were changing almost daily.
+
+### Why this project
+
+The idea for this project emerged during the opening weeks of my final semester at NYU in Spring 2020. During the weekend of February 7, 2020, I was participating in the Cornell AI Health Hackathon while news of the novel coronavirus outbreak in China was beginning to attract increasing international attention. COVID-19 was still an emerging global story, and New York City had not yet experienced the outbreak that would soon transform daily life there. Against that backdrop, I became interested in using the rapidly evolving public data as the basis for our Data Bootcamp final project.
+
+The context changed remarkably quickly. Within weeks, New York City began reporting a rapidly growing number of cases, and NYU suspended in-person classes in March. What initially appeared to be a temporary move to remote instruction ultimately continued through the remainder of the semester.
+
+As New York became one of the earliest and hardest-hit US population centers, the subject of the project became part of the environment in which we were completing it. While living through the first major New York outbreak, I continued working with my teammates on analyses spanning global COVID-19 patterns, the United States, and New York City, using data that were still being released and revised in real time through May 2020.
 
 The project brought together several analytical perspectives to explore questions such as:
 
@@ -92,7 +100,7 @@ These analyses were exploratory and descriptive rather than causal.
 
 Most of the COVID-19 analysis reflects data available through approximately **May 12–13, 2020**, while several financial datasets extend through **April 24, 2020**.
 
-The recovered project archive also contains later copies in which some live-data cells were rerun after the course ended. The restored version will therefore use the Spring 2020 project period as its historical reference point rather than silently incorporating later observations.
+The recovered project archive also contains later copies in which some live-data cells were rerun after the course ended. The restored version therefore uses the Spring 2020 project period as its historical reference point rather than silently incorporating later observations.
 
 ## Original tools and libraries
 
@@ -108,7 +116,7 @@ The original project was developed in Python using Jupyter Notebook and librarie
 
 The analysis combined data from multiple public and historical sources, including COVID-19 time-series data, population data, state-level indicators, financial-market data, and gold-price data.
 
-Detailed source provenance will be documented as part of the restoration.
+Source provenance and historical-data decisions are documented in the restored notebook and repository materials where the original sources could be established confidently.
 
 ## Repository structure
 
@@ -125,21 +133,21 @@ nyu-covid19-data-analysis/
 └── notebooks/
 ```
 
-As the restoration progresses:
+Repository contents:
 
-* `notebooks/` will contain the restored analytical notebook and selected historical artifacts.
-* `data/raw/` will contain historical source files required for reproducibility where appropriate.
-* `data/processed/` will contain cleaned or transformed datasets created during the restoration.
-* `assets/` will contain selected charts, images, and animation outputs.
-* `docs/` will contain methodology, data-source, and restoration documentation.
+* `notebooks/` contains the restored analytical notebook and selected historical artifacts.
+* `data/raw/` contains historical source files required for reproducibility where appropriate.
+* `data/processed/` contains cleaned or transformed datasets created during the restoration.
+* `assets/` contains selected charts, images, and animation outputs.
+* `docs/` contains methodology, data-source, and restoration documentation.
 
 ## Restoration approach
 
 The goal of this work is not to redesign the original project as though it had been created with later knowledge or more advanced experience.
 
-Instead, the restoration will preserve the original analytical intent while improving the way the project is organized, executed, and communicated.
+Instead, the restoration preserves the original analytical intent while improving the way the project is organized, executed, and communicated.
 
-Planned work includes:
+Restoration work completed includes:
 
 * Preserving the original Spring 2020 project as a historical artifact
 * Identifying and documenting the historical data inputs used in the analysis
@@ -156,7 +164,7 @@ Planned work includes:
 
 The repository currently refers to the other contributors as **teammates** rather than naming them publicly. Their names can be added later after confirming how they would like to be credited.
 
-The animated bar-chart-race implementation was adapted from examples by **Pratap Vardhan** and **John Burn-Murdoch**. Their work was credited in the historical notebook and will remain credited in the restored version.
+The animated bar-chart-race implementation was adapted from examples by **Pratap Vardhan** and **John Burn-Murdoch**. Their work was credited in the historical notebook and remains credited in the restored version.
 
 See [`CONTRIBUTIONS.md`](CONTRIBUTIONS.md) for additional detail.
 
@@ -166,4 +174,4 @@ This project should be interpreted as an analysis conducted during the first mon
 
 At the time, testing availability, reporting practices, case definitions, and data quality varied substantially across locations. Many relationships explored in the project are therefore descriptive or associative and should not be interpreted as causal conclusions.
 
-The restored repository will retain that historical context rather than evaluating the original work using information that only became available later.
+The restored repository retains that historical context rather than evaluating the original work using information that only became available later.

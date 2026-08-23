@@ -47,15 +47,15 @@ Their contributions included:
 
 The animated bar-chart-race implementation was adapted from examples developed by **Pratap Vardhan** and **John Burn-Murdoch**.
 
-The historical project notebook included attribution to this external work, and that acknowledgement will remain in the restored version.
+The historical project notebook included attribution to this external work, and that acknowledgement remains in the restored version.
 
-Additional datasets, examples, and external code references identified during the restoration will also be documented where appropriate.
+Additional datasets, examples, and external code references identified during the restoration are documented where appropriate.
 
 ## Restoration work
 
-The current restoration is being undertaken by the contributor responsible for the project’s original conception, coordination, global analysis, United States and New York City analysis, and final notebook integration.
+The restoration was undertaken by the contributor responsible for the project’s original conception, coordination, global analysis, United States and New York City analysis, and final notebook integration.
 
-The restoration work includes:
+The restoration work included:
 
 * Reconstructing the project from the recovered 2020 files.
 * Identifying the most representative version of the original Spring 2020 submission.
