@@ -2,6 +2,12 @@
 
 A historical data science project exploring the early spread of COVID-19 across global, United States, and New York City data, alongside exploratory statistical and financial-market analysis.
 
+<p align="center">
+  <img src="assets/readme_project_banner.png"
+       alt="Restoring a Spring 2020 COVID-19 Data Analysis Project"
+       width="850">
+</p>
+
 This project was originally completed as a three-person final project for the **NYU Stern Data Bootcamp in Spring 2020**, during the opening months of the COVID-19 pandemic in New York City.
 
 > **Restoration status:** This repository contains a restored and polished version of the original Spring 2020 project. The restoration improves reproducibility, organization, documentation, code clarity, and analytical presentation while preserving the historical scope and collaborative nature of the original work.
