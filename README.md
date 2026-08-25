@@ -36,7 +36,7 @@ The project was developed collaboratively by a three-person team.
 
 I conceived the project and shaped its overall analytical direction, including the core questions and structure of the analysis. My work focused on the global COVID-19, United States, and New York City sections, alongside coordinating the division of analytical work across the team.
 
-One teammate developed the animated bar-chart race after I proposed it as an additional visualization for the project. Another teammate worked on the state-level regression and financial-market sections.
+One teammate developed the animated bar-chart race after I proposed it as an additional visualization for the project. Alexandre worked on the state-level regression and financial-market sections.
 
 As the individual workstreams came together, I also integrated the different sections into the combined notebook and worked on organizing the final analytical flow and presentation.
 
@@ -162,7 +162,7 @@ Restoration work completed includes:
 
 ## Collaboration and attribution
 
-The repository currently refers to the other contributors as **teammates** rather than naming them publicly. Their names can be added later after confirming how they would like to be credited.
+Contributors are named publicly where permission has been confirmed. Other collaborators remain referred to as teammates until their preferred public attribution is confirmed.
 
 The animated bar-chart-race implementation was adapted from examples by **Pratap Vardhan** and **John Burn-Murdoch**. Their work was credited in the historical notebook and remains credited in the restored version.
 

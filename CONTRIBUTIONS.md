@@ -30,9 +30,9 @@ Their contributions included:
 * Contributing additional exploratory analytical work during project development.
 
 
-## Teammate — Regression and financial analysis
+## Alexandre Busque — Regression and financial analysis
 
-Another teammate focused on the regression and financial-market workstreams.
+Alex  focused on the regression and financial-market workstreams.
 
 Their contributions included:
 
